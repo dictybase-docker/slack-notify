@@ -16,7 +16,7 @@ import (
 // RootCmd represents the base command when called without any subcommands
 var RootCmd = &cobra.Command{
 	Use:   "slack-notify",
-	Short: "cli to send argo workflow notification in a slack channel",
+	Short: "cli to send argo workflow notification to a slack channel",
 	Long: `A command line application that is used as an onExit handler
 	to receive information from a stepwise argo(https://github.com/argoproj/argo)
 	workflow. It then send a message to a given slack channel including the 
