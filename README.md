@@ -19,4 +19,4 @@ Flags:
   -w, --workflow-id string   a workflow identifier that has triggered this slack notification
 ```
 
-required flag(s) "api-token", "channel", "endpoint", "status", "workflow-id" not set
+required flag(s) "api-token", "channel", "endpoint", "status", "workflow-id" 
